@@ -1,0 +1,17 @@
+[package]
+name = "search_engine"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "search_engine"
+path = "src/lib/lib.rs"
+
+[[bin]]
+name = "jugs"
+path = "src/bin/jugs.rs"
+
+[dependencies]
+fastrand = "2.0.1"
+itertools = "0.12.1"
+petgraph = "0.6.4"
